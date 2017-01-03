@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Full Stack Challenge | Palindrome</title>
+
+        <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+
+        <style media="screen" type="text/css">
+            body > .container:first-child {
+                margin-top: 70px;
+            }
+
+            .container > .jumbotron > .form-group {
+                margin-top: 30px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="jumbotron col-lg-10 col-lg-offset-1">
+                <h2 class="text-center">Type a word or phrase bellow and check if is a palindrome</h2>
+                <div class="form-group">
+                    <div class="input-group">
+                        <input max-length="200" placeholder="Type the phrase or word here" type="text" id="input-palindrome" class="form-control">
+                        <div class="input-group-btn">
+                            <button id="btn-search" class="btn btn-primary"><i class="glyphicon glyphicon-search"></i></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group alerts">
+                    <div class="alert alert-success hidden">
+                        <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+                        IS A PALINDROME</div>
+                    <div class="alert alert-danger hidden">
+                        <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+                        IS NOT A PALINDROME</div>
+                </div>
+            </div>
+        </div>
+
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js" charset="utf-8"></script>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js" charset="utf-8"></script>
+        <script src="/app.js" charset="utf-8"></script>
+    </body>
+</html>
