@@ -17,7 +17,7 @@ app.post('/is-palindrome', function (req, res) {
         var text = (req.body.text.split(' ').join('')).split('').join('');
         var reversedString = text.split('').reverse().join('');
 
-        if (reversedString === text) {
+        if (reversedString.toLowerCase() === text.toLowerCase()) {
             res.status(200).send('IS A PALINDROME');
         } else {
             res.status(400).send('IS NOT A PALINDROME');

@@ -18,7 +18,7 @@ $(function() {
     });
 
     $('#input-palindrome').on('keyup', function(e) {
-        if (e.keycode == 13) {
+        if (e.keyCode == 13) {
             e.stopPropagation();
             checkIfIsAPalindrome($(this).val().trim());
         }
