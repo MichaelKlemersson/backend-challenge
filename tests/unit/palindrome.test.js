@@ -1,4 +1,4 @@
-var Palindrome = require('../lib/palindrome'),
+var Palindrome = require('../../lib/palindrome'),
     palindromeUtils = new Palindrome(),
     emptyString = "",
     palidromes = ['aba', 'oVo', 'A MAN A PLAN A CANAL PANAMA'],
