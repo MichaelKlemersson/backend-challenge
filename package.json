@@ -1,7 +1,7 @@
 {
-  "name": "fullstack-challenge",
+  "name": "backend-challenge",
   "version": "1.0.0",
-  "description": "code for shaw and partners full stack challenge",
+  "description": "code for shaw and partners back end challenge",
   "main": "index.js",
   "scripts": {
     "unittest": "nodeunit tests/unit/",
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/MichaelKlemersson/fullstack-challenge.git"
+    "url": "git+https://github.com/MichaelKlemersson/backend-challenge.git"
   },
   "keywords": [
     "full",
@@ -19,9 +19,9 @@
   "author": "Michael Klemersson",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/MichaelKlemersson/fullstack-challenge/issues"
+    "url": "https://github.com/MichaelKlemersson/backend-challenge/issues"
   },
-  "homepage": "https://github.com/MichaelKlemersson/fullstack-challenge#readme",
+  "homepage": "https://github.com/MichaelKlemersson/backend-challenge#readme",
   "dependencies": {
     "body-parser": "^1.15.2",
     "express": "^4.14.0"

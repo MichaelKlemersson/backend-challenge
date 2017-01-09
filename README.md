@@ -13,3 +13,14 @@ npm install
 node index.js
 ```
 4. At least, open your web browser and access [http://localhost:3000](http://localhost:3000) to see the application running
+
+** Run Tests **
+
+1. Unit Tests
+```shell
+npm run unittest
+```
+2. BDD Tests
+```shell
+npm run bddtest
+```
