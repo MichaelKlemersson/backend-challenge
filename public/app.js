@@ -7,7 +7,7 @@ function checkIfIsAPalindrome(string) {
         $('.jumbotron > .alerts > .alert-danger').removeClass('hidden');
     }).done(function() {
         setTimeout(function() {
-            $('.jumbotron > .alerts > .alert').addClass('hidden');
+            $('.jumbotron .alerts .alert').addClass('hidden');
         }, 3000);
     });
 }
